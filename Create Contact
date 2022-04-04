@@ -53,10 +53,6 @@ public class CreateContact {
 		
 		driver.findElement(By.name("submitButton")).click();
 		
-		//String text = driver.findElement(By.id("sectionHeaderTitle_leads")).getText();
-		
-		//System.out.println(text);
-		
 		String title = driver.getTitle();
 		System.out.println(title);
 	}
