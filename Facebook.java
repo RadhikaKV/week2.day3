@@ -15,7 +15,7 @@ public class Facebook {
 		
 		ChromeDriver driver = new ChromeDriver();
 	
-		driver.get("https://www.facebook.com/");
+		driver.get("https://en-gb.facebook.com/");
 		
 		driver.manage().window().maximize();
 		
